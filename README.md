@@ -79,3 +79,9 @@ The starter workflow template configures jobs to run on Linux, using the GitHub-
 ```
 runs-on: windows-latest
 ```
+When a commit is made to the repo , github actions workflow job will be execute and we have ouput as below.
+
+![Screen Shot 2021-09-06 at 7 55 38 PM](https://user-images.githubusercontent.com/87215340/132277275-bcc20669-8313-4158-92cc-cb142f8f9705.png)
+![Screen Shot 2021-09-06 at 7 55 58 PM](https://user-images.githubusercontent.com/87215340/132277267-ae011f54-5b22-4b4d-8465-52ee7b8880c3.png)
+
+
