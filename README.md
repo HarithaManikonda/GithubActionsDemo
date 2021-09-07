@@ -1,6 +1,8 @@
 GitHub Actions help you automate tasks within your software development life cycle.
 GitHub Actions are event-driven.For example, every time someone creates a pull request for a repository, you can automatically run a command that executes a software testing script.
 
+![Screen Shot 2021-09-06 at 7 52 46 PM](https://user-images.githubusercontent.com/87215340/132276882-3fd4096b-da4f-4fff-8c30-9d1b3714d091.png)
+
 
 
 1. Workflows
@@ -10,27 +12,27 @@ GitHub Actions are event-driven.For example, every time someone creates a pull r
 5. Steps
 6. Actions
 
-Workflows
+## Workflows
 
 The workflow is an automated procedure that you add to your repository. Workflows are made up of one or more jobs and can be scheduled or triggered by an event. The workflow can be used to build, test, package, release, or deploy a project on GitHub.
 
-Events
+## Events
 
 An event is a specific activity that triggers a workflow. For example, activity can originate from GitHub when someone pushes a commit to a repository or when an issue or pull request is created.
 
-Jobs
+## Jobs
 
 A job is a set of steps that execute on the same runner. By default, a workflow with multiple jobs will run those jobs in parallel. You can also configure a workflow to run jobs sequentially
 
-Steps
+## Steps
 
 A step is an individual task that can run commands in a job. A step can be either an action or a shell command
 
-Actions
+## Actions
 
 Actions are standalone commands that are combined into steps to create a job. Actions are the smallest portable building block of a workflow. You can create your own actions, or use actions created by the GitHub community
 
-Runners
+## Runners
 
 A runner is a server that has the GitHub Actions runner application installed. You can use a runner hosted by GitHub, or you can host your own. A runner listens for available jobs, runs one job at a time, and reports the progress, logs, and results back to GitHub
 
