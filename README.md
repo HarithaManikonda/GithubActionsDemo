@@ -72,7 +72,7 @@ This workflow performs the following steps:
 2. The setup-java step configures the Java 11 JDK by Adoptium.
 3. The "Build with Maven" step runs the Maven package target in non-interactive mode to ensure that your code builds, tests pass, and a package can be created.
 
-Running on a different operating system
+## Running on a different operating system
 
 The starter workflow template configures jobs to run on Linux, using the GitHub-hosted ubuntu-latest runners. You can change the runs-on key to run your jobs on a different operating system. For example, you can use the GitHub-hosted Windows runners.
 
