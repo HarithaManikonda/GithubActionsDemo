@@ -38,7 +38,7 @@ A runner is a server that has the GitHub Actions runner application installed.
 
 
 
-Maven workflow template
+## Maven workflow template
 
 GitHub provides a Maven workflow template that will work for most Maven-based Java projects. For more information, see the Maven workflow template.
 To get started quickly, you can choose the preconfigured Maven template when you create a new workflow. 
